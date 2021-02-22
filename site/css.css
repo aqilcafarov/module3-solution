@@ -1,0 +1,50 @@
+#header-nav {
+    background-color:  #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    size: .8em;
+    color: #000;
+}
+
+h2 {
+ font-family: 'Times New Roman', Times, serif;
+ margin-top: 20px;
+ margin-bottom: 25px;
+ font-weight: 500;
+}
+
+section {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul a:hover {
+    background-color: #cccccc;
+    opacity: .6;
+    font-size: 1.3em;
+
+}
+
+#chicken p {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    left: 5px;
+    margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+    #chicken {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
